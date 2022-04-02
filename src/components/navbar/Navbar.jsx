@@ -5,18 +5,21 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="logo">Navbar</div>
+      <form action="#!" className="search">
+        <input type="text" placeholder="Movie Search" className="search_input" />
+      </form>
       <ul className="menu">
         <li>
-          <a href="#!">Home</a>
+          <a href="#!">New</a>
         </li>
         <li>
-          <a href="#!">Home</a>
+          <a href="#!">Movies</a>
         </li>
         <li>
-          <a href="#!">Home</a>
+          <a href="#!">Serials</a>
         </li>
         <li>
-          <a href="#!">Home</a>
+          <a href="#!">Cartoons</a>
         </li>
       </ul>
     </div>
