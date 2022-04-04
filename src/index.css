@@ -8,3 +8,18 @@
   text-decoration: none;
   font-family: "Overlock", cursive;
 }
+
+body::-webkit-scrollbar-track {
+  border: none;
+  background-color: #17202A;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #17202A;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #000000;
+}

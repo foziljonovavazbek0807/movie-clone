@@ -1,26 +1,27 @@
 .Card {
   width: 100%;
+  overflow: hidden;
   padding: 50px;
   display: flex;
   justify-content: space-between;
   background-color: #17202a;
 }
 
-.card_cub {
-  width: 11%;
-  height: 250px;
+.Card .card_cub {
+  width: 200px;
+  height: 280px;
   background-color: #000;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* margin: 10px; */
-  cursor: pointer;
+  cursor: default;
   transition: 0.3s;
   position: relative;
 }
 
-.card_cub img {
+.Card .card_cub img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -28,7 +29,7 @@
   opacity: 0.7;
 }
 
-.tim {
+.Card .card_cub .tim {
   color: #ff0000;
   font-weight: bold;
   font-size: 16px;
@@ -36,34 +37,54 @@
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px 0 10px 0;
   padding: 2px 8px;
+  letter-spacing: 2px;
   left: 0;
+  top: 0;
   animation: 0.8s new infinite;
 }
 
-.title {
+.Card .card_cub .title {
   color: #fff;
   font-weight: bolder;
   font-size: 20px;
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
 }
 
-.card_cub:hover {
+.Card .card_cub:hover {
   transform: translateY(-10px);
 }
 
-.card_cub:hover.card_cub img {
+.Card .card_cub:hover.card_cub img {
   opacity: 1;
 }
 
-.card_cub:hover .title {
+.Card .card_cub:hover .title {
   display: none;
+}
+
+.Card .card_cub .stream_btn {
+  background-color: #f00;
+  color: #fff;
+  transition: 0.3s;
+  position: absolute;
+  bottom: 10px;
+  margin: 0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 18px;
+  display: none;
+}
+
+.Card .card_cub:hover .stream_btn {
+  display: block;
 }
 
 @keyframes new {
   25% {
     color: #ff0;
-    transform: scale(0.95);
+    transform: scale(1.03);
   }
   50% {
     color: #f00;
@@ -71,7 +92,7 @@
   }
   75% {
     color: #0f0;
-    transform: scale(0.95);
+    transform: scale(1.03);
   }
   100% {
     color: #f00;

@@ -1,14 +1,10 @@
 import React from "react";
-import Navbar from "./components/navbar/Navbar";
-import Header from "./components/header/Header";
-import Card from "./components/cards/Card";
+import Main from "./pages/Main";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <Card />
+      <Main/>
     </div>
   );
 }

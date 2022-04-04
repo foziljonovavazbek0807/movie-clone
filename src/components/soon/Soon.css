@@ -1,0 +1,81 @@
+.Soon {
+  width: 100%;
+  padding: 50px;
+  background-color: #17202a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Soon .ad_one {
+  width: 32%;
+  height: 400px;
+  background-color: #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+  transition: 0.3s;
+  position: relative;
+}
+
+.Soon .ad_one .ti {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  border-radius: 10px 0 10px 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.Soon .ad_one img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+.Soon .ad_one:hover.ad_one img {
+  opacity: 1;
+}
+
+.Soon .ad_one .title {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.Soon .ad_one:hover .title {
+  display: none;
+}
+
+.Soon .ad_one .trailer_btn {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s;
+  position: absolute;
+  bottom: 10px;
+  margin: 0;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: none;
+}
+
+.Soon .ad_one:hover .trailer_btn {
+  display: block;
+
+}
+
+.Soon .ad_one:hover {
+  transform: translateY(-10px);
+}
