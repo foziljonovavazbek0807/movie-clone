@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
-// import Header from "./components/header/Header";
-import AllCard from "./components/cards/AllCard";
+import Header from "./components/header/Header";
+import Card from "./components/cards/Card";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Header /> */}
-      <AllCard />
+      <Header />
+      <Card />
     </div>
   );
 }

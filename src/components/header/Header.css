@@ -1,39 +1,79 @@
 .Header {
   width: 100%;
-  height: 70vh;
+  padding: 50px 100px 50px 0;
+  background-color: #17202a;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  background-color: #000;
-  position: relative;
 }
 
-.title {
-  width: 40%;
+.poster {
+  width: 45%;
+  height: 600px;
+  border-radius: 0 50% 50% 0;
+  cursor: default;
+}
+
+.heading {
+  width: 45%;
   display: flex;
+  align-items: center;
   flex-direction: column;
-  align-items: flex-start;
-  position: absolute;
-  left: 100px;
+  text-align: center;
+}
+
+.titleLogo {
+  width: 300px;
 }
 
 h1 {
-  color: #fff;
+  color: silver;
+  font-weight: bold;
   font-size: 35px;
-  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 10px;
 }
 
-.btn_block {
+p {
+  color: darkgray;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.block_btn {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.btn_watch, .btn_download {
-  border: 1px solid #fff;
+.stream_btn,
+.trailer_btn {
+  margin: 20px;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.stream_btn {
+  background-color: #f00;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.stream_btn:hover {
+  transform: scale(1.05);
+}
+
+.trailer_btn {
   background-color: #fff;
-  margin-right: 20px;
-  padding: 10px 20px;
-  font-size: 15px;
-  font-weight: normal;
-  border-radius: 5px;
+  color: #000;
+  transition: 0.3s;
+}
+
+.trailer_btn:hover {
+  transform: scale(1.05);
 }

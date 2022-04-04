@@ -1,16 +1,80 @@
-.AllCard {
-    background-color: #000;
-    padding: 10px 100px;
-    display: flex;
-    justify-content: space-between;
+.Card {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #17202a;
 }
 
-.Card {
-    width: 12%;
-    background-color: #17202A;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.card_cub {
+  width: 11%;
+  height: 250px;
+  background-color: #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 10px; */
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+
+.card_cub img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+.tim {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 16px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px 0 10px 0;
+  padding: 2px 8px;
+  left: 0;
+  animation: 0.8s new infinite;
+}
+
+.title {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.card_cub:hover {
+  transform: translateY(-10px);
+}
+
+.card_cub:hover.card_cub img {
+  opacity: 1;
+}
+
+.card_cub:hover .title {
+  display: none;
+}
+
+@keyframes new {
+  25% {
+    color: #ff0;
+    transform: scale(0.95);
+  }
+  50% {
+    color: #f00;
+    transform: scale(1);
+  }
+  75% {
+    color: #0f0;
+    transform: scale(0.95);
+  }
+  100% {
+    color: #f00;
+    transform: scale(1);
+  }
 }
