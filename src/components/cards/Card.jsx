@@ -5,60 +5,15 @@ import Img from "../../assets/img1.jpg";
 function Card() {
   return (
     <div className="Card">
-      <div className="card_cub">
-        <img src={Img} alt="img" />
-        <small className="tim">NEW</small>
-        <b className="title">Avengers</b>
+      <img src={Img} alt="img" />
+      <small className="tim">NEW</small>
+      <b className="title">Avengers</b>
+      <div className="stream_block">
         <a href="#!" className="stream_btn">
           Watch Now
         </a>
-      </div>
-      <div className="card_cub">
-        <img src={Img} alt="img" />
-        <small className="tim">NEW</small>
-        <b className="title">Avengers</b>
-        <a href="#!" className="stream_btn">
-          Watch Now
-        </a>
-      </div>
-      <div className="card_cub">
-        <img src={Img} alt="img" />
-        <small className="tim">NEW</small>
-        <b className="title">Avengers</b>
-        <a href="#!" className="stream_btn">
-          Watch Now
-        </a>
-      </div>
-      <div className="card_cub">
-        <img src={Img} alt="img" />
-        <small className="tim">NEW</small>
-        <b className="title">Avengers</b>
-        <a href="#!" className="stream_btn">
-          Watch Now
-        </a>
-      </div>
-      <div className="card_cub">
-        <img src={Img} alt="img" />
-        <small className="tim">NEW</small>
-        <b className="title">Avengers</b>
-        <a href="#!" className="stream_btn">
-          Watch Now
-        </a>
-      </div>
-      <div className="card_cub">
-        <img src={Img} alt="img" />
-        <small className="tim">NEW</small>
-        <b className="title">Avengers</b>
-        <a href="#!" className="stream_btn">
-          Watch Now
-        </a>
-      </div>
-      <div className="card_cub">
-        <img src={Img} alt="img" />
-        <small className="tim">NEW</small>
-        <b className="title">Avengers</b>
-        <a href="#!" className="stream_btn">
-          Watch Now
+        <a href="#!" className="stream_trailer_btn">
+          Trailer
         </a>
       </div>
     </div>

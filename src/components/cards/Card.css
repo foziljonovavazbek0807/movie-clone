@@ -1,13 +1,12 @@
-.Card {
+.AllCard {
   width: 100%;
-  overflow: hidden;
-  padding: 50px;
+  padding: 20px 50px 0 50px;
   display: flex;
   justify-content: space-between;
   background-color: #17202a;
 }
 
-.Card .card_cub {
+.Card {
   width: 200px;
   height: 280px;
   background-color: #000;
@@ -15,13 +14,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin: 10px; */
   cursor: default;
   transition: 0.3s;
   position: relative;
 }
 
-.Card .card_cub img {
+.Card img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -29,7 +27,7 @@
   opacity: 0.7;
 }
 
-.Card .card_cub .tim {
+.Card .tim {
   color: #ff0000;
   font-weight: bold;
   font-size: 16px;
@@ -43,33 +41,51 @@
   animation: 0.8s new infinite;
 }
 
-.Card .card_cub .title {
+.Card .title {
   color: #fff;
   font-weight: bolder;
   font-size: 20px;
   position: absolute;
-  bottom: 15px;
+  bottom: 20px;
 }
 
-.Card .card_cub:hover {
+.Card:hover {
   transform: translateY(-10px);
 }
 
-.Card .card_cub:hover.card_cub img {
+.Card:hover.card_cub img {
   opacity: 1;
 }
 
-.Card .card_cub:hover .title {
+.Card:hover .title {
   display: none;
 }
 
-.Card .card_cub .stream_btn {
+.Card .stream_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
+  position: absolute;
+  bottom: 20px;
+}
+
+.Card .stream_block .stream_btn {
   background-color: #f00;
   color: #fff;
   transition: 0.3s;
-  position: absolute;
-  bottom: 10px;
-  margin: 0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.Card .stream_block .stream_trailer_btn {
+  color: #000;
+  background-color: #fff;
+  transition: 0.3s;
   border-radius: 10px;
   padding: 5px 10px;
   font-weight: bold;
@@ -77,7 +93,11 @@
   display: none;
 }
 
-.Card .card_cub:hover .stream_btn {
+.Card:hover .stream_btn {
+  display: block;
+}
+
+.Card:hover .stream_trailer_btn {
   display: block;
 }
 

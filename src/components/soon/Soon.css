@@ -1,6 +1,6 @@
 .Soon {
   width: 100%;
-  padding: 50px;
+  padding: 20px 50px 0 50px;
   background-color: #17202a;
   display: flex;
   justify-content: space-between;
@@ -61,10 +61,10 @@
   color: #000;
   transition: 0.3s;
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   margin: 0;
   font-size: 18px;
-  padding: 10px 25px;
+  padding: 15px 25px;
   border-radius: 10px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -73,7 +73,6 @@
 
 .Soon .ad_one:hover .trailer_btn {
   display: block;
-
 }
 
 .Soon .ad_one:hover {

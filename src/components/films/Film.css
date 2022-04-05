@@ -1,19 +1,21 @@
 .AllFilm {
   width: 100%;
-  padding: 50px 50px 0 50px;
+  padding: 0 50px 0 50px;
   background-color: #17202a;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
+/* === Two === */
+
 .FilmTwo {
-  width: 70%;
+  width: 49%;
   padding: 10px;
   background-color: #000;
   border-radius: 10px;
   display: flex;
-  position: relative;
+  margin-top: 20px;
 }
 
 .FilmTwo .film_poster {
@@ -44,7 +46,7 @@
 }
 
 .FilmTwo .about {
-  margin-left: 30px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -108,7 +110,7 @@
 .FilmTwo .about .watch_btn .btn_watch_trailer {
   background-color: #fff;
   color: #000;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .FilmTwo .about .watch_btn .btn_watch:hover,
@@ -116,47 +118,24 @@
   transform: scale(1);
 }
 
-.FilmTwo .such {
+.FilmTwo .film_poster .such {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  right: 20px;
-}
-
-.FilmTwo .such span {
-  display: flex;
   align-items: center;
-  margin-top: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 0 10px 0 10px;
 }
 
-.FilmTwo .such span p {
-  color: #999;
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-.FilmTwo .such span .like_icon {
-  font-size: 30px;
+.FilmTwo .film_poster .such .like_icon {
+  font-size: 25px;
   color: #fff;
+  margin: 5px;
   cursor: pointer;
 }
 
-.FilmTwo .eye {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  right: 20px;
-  bottom: 10px;
-  cursor: default;
-}
-
-.FilmTwo .eye p {
-  color: #999;
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-.FilmTwo .eye .watch_icon {
-  font-size: 20px;
-  color: #999;
+.FilmTwo .film_poster .such .like_icon:active {
+  transform: scale(0.95);
 }
