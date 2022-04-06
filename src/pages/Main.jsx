@@ -5,6 +5,8 @@ import Branch from "../components/branch/Branch";
 import AllCard from "../components/cards/AllCard";
 import Soon from "../components/soon/Soon";
 import AllFilm from "../components/films/AllFilm";
+import Again from "../components/films/Again";
+import Footer from "../components/footer/Footer";
 
 function main() {
   return (
@@ -21,7 +23,9 @@ function main() {
       <AllFilm />
       <AllFilm />
       <AllFilm />
-      <Branch name1="OTHERS" name2="MOVIES" />
+      <Again />
+      <Branch name1="TV" name2="CHANNELS" />
+      <Footer />
     </div>
   );
 }

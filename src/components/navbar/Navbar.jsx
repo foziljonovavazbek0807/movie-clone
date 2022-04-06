@@ -17,7 +17,7 @@ function Navbar() {
       </form>
       <ul className="menu">
         <li>
-          <a href="#!">New</a>
+          <a href="#!">TV</a>
         </li>
         <li>
           <a href="#!">Movies</a>

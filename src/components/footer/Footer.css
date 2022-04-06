@@ -1,0 +1,126 @@
+.Footer {
+  width: 100%;
+  padding: 50px;
+  background-color: #17202a;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Footer .footer_first {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Footer .footer_first .logo {
+  color: #fff;
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.Footer .footer_first .search {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.Footer .footer_first .search .search_icon {
+  position: absolute;
+  color: #fff;
+  font-size: 18px;
+  left: 5px;
+}
+
+.Footer .footer_first .search .search_input {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 5px 80px 5px 30px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+}
+
+.Footer .footer_first .search .search_btn {
+  height: 80%;
+  position: absolute;
+  right: 5px;
+  border: none;
+  padding: 0 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: normal;
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Footer .footer_first .search .search_btn:active {
+  transform: scale(0.95);
+}
+
+.Footer .footer_first .menu {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Footer .footer_first .menu li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.Footer .footer_first .menu li a:hover {
+  color: #f00;
+}
+
+.Footer .footer_contact {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.Footer .footer_contact .contact_icon {
+  font-size: 30px;
+  color: #fff;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Footer .footer_contact .contact_icon:nth-child(1) {
+  color: #1f45fc;
+}
+
+.Footer .footer_contact .contact_icon:nth-child(2) {
+  background: linear-gradient(#f0f, #f00, #f0f);
+  border-radius: 10px;
+}
+
+.Footer .footer_contact .contact_icon:nth-child(3) {
+  color: #f00;
+  font-size: 35px;
+}
+
+.Footer .footer_contact .contact_icon:hover {
+  transform: scale(1.05);
+}
