@@ -39,6 +39,13 @@ function Footer() {
         <AiOutlineInstagram className="contact_icon" />
         <AiFillYoutube className="contact_icon" />
       </div>
+      <b className="yea">&copy; MXS-media.com - 2022</b>
+      <p className="low">
+        All rights to the films belong to their authors. Movies and videos are
+        for information only. The site administration is not responsible for
+        illegal materials posted by users! Any film will be removed at the
+        request of the copyright owner.
+      </p>
     </div>
   );
 }

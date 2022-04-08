@@ -6,6 +6,7 @@ import AllCard from "../components/cards/AllCard";
 import Soon from "../components/soon/Soon";
 import AllFilm from "../components/films/AllFilm";
 import Again from "../components/films/Again";
+import Tv from "../components/tv/Tv";
 import Footer from "../components/footer/Footer";
 
 function main() {
@@ -17,6 +18,8 @@ function main() {
       <Soon />
       <Branch name1="NEW" name2="PREMIERE" />
       <AllCard />
+      <Branch name1="TV" name2="CHANNELS" />
+      <Tv />
       <Branch name1="OTHERS" name2="MOVIES" />
       <AllFilm />
       <AllFilm />
@@ -24,7 +27,6 @@ function main() {
       <AllFilm />
       <AllFilm />
       <Again />
-      <Branch name1="TV" name2="CHANNELS" />
       <Footer />
     </div>
   );

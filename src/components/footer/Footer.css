@@ -1,6 +1,6 @@
 .Footer {
   width: 100%;
-  padding: 50px;
+  padding: 50px 50px 10px 50px;
   background-color: #17202a;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
@@ -123,4 +123,22 @@
 
 .Footer .footer_contact .contact_icon:hover {
   transform: scale(1.05);
+}
+
+.Footer .yea {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Footer .low {
+  width: 100%;
+  color: #999;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
 }
