@@ -1,9 +1,6 @@
 import React from "react";
 import "./Film.css";
 import FilmPoster from "../../assets/img1.jpg";
-import { FaRegHeart } from "react-icons/fa";
-import { AiOutlineDislike } from "react-icons/ai";
-// import { BsFillEyeFill } from "react-icons/bs";
 
 function FilmTwo() {
   return (
@@ -11,10 +8,6 @@ function FilmTwo() {
       <div className="film_poster">
         <img src={FilmPoster} alt="FilmPoster" />
         <small>2022</small>
-        <div className="such">
-            <FaRegHeart className="like_icon" />
-            <AiOutlineDislike className="like_icon" />
-        </div>
       </div>
       <div className="about">
         <h3>Avengers - End Game</h3>

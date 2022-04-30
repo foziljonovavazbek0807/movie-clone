@@ -14,6 +14,7 @@
   border-radius: 10px;
   display: flex;
   margin-top: 20px;
+  cursor: default;
 }
 
 .FilmTwo .film_poster {
@@ -116,26 +117,9 @@
   transform: scale(1);
 }
 
-.FilmTwo .film_poster .such {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-  border-radius: 0 10px 0 10px;
-}
-
-.FilmTwo .film_poster .such .like_icon {
-  font-size: 25px;
-  color: #fff;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.FilmTwo .film_poster .such .like_icon:active {
-  transform: scale(0.95);
+.FilmTwo .about .watch_btn .btn_watch:active,
+.btn_watch_trailer:active {
+  transform: scale(0.98);
 }
 
 .Again {

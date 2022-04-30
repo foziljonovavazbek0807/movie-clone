@@ -1,9 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import { AiOutlineSearch } from "react-icons/ai";
-import { FaTelegramPlane } from "react-icons/fa";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { AiFillYoutube } from "react-icons/ai";
 
 function Footer() {
   return (
@@ -33,11 +30,6 @@ function Footer() {
             <a href="#!">Cartoons</a>
           </li>
         </ul>
-      </div>
-      <div className="footer_contact">
-        <FaTelegramPlane className="contact_icon" />
-        <AiOutlineInstagram className="contact_icon" />
-        <AiFillYoutube className="contact_icon" />
       </div>
       <b className="yea">&copy; MXS-media.com - 2022</b>
       <p className="low">
