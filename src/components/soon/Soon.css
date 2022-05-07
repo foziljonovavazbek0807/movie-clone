@@ -63,12 +63,12 @@
   position: absolute;
   bottom: 20px;
   margin: 0;
-  font-size: 18px;
-  padding: 15px 25px;
+  display: none;
+  font-size: 20px;
+  padding: 15px 30px;
   border-radius: 10px;
   font-weight: bold;
   letter-spacing: 2px;
-  display: none;
 }
 
 .Soon .ad_one:hover .trailer_btn {

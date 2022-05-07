@@ -82,7 +82,7 @@
   color: #999;
   font-size: 18px;
   font-weight: normal;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .FilmTwo .about .watch_btn {
@@ -98,7 +98,6 @@
   padding: 8px 15px;
   border-radius: 10px;
   transition: 0.3s;
-  transform: scale(0.98);
 }
 
 .FilmTwo .about .watch_btn .btn_watch {
@@ -114,12 +113,12 @@
 
 .FilmTwo .about .watch_btn .btn_watch:hover,
 .btn_watch_trailer:hover {
-  transform: scale(1);
+  transform: translateY(-2px);
 }
 
 .FilmTwo .about .watch_btn .btn_watch:active,
 .btn_watch_trailer:active {
-  transform: scale(0.98);
+  transform: scale(0.95);
 }
 
 .Again {
@@ -133,7 +132,7 @@
 
 .Again .again_btn {
   color: #fff;
-  background-color: #0f0;
+  background-color: #000;
   border: none;
   border-radius: 10px;
   font-size: 20px;
@@ -145,5 +144,5 @@
 }
 
 .Again .again_btn:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
 }

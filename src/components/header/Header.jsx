@@ -16,7 +16,7 @@ function Header() {
             Watch Now
           </a>
           <a href="#!" className="trailer_btn">
-            Watch Trailer
+            Trailer
           </a>
         </div>
       </div>

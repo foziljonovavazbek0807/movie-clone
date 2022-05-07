@@ -1,7 +1,6 @@
 .Header {
   width: 100%;
-  overflow: hidden;
-  padding: 0 100px 50px 0;
+  padding: 50px 50px 50px 0;
   background-color: #17202a;
   display: flex;
   justify-content: space-between;
@@ -10,13 +9,13 @@
 
 .Header .poster {
   width: 45%;
-  height: 650px;
+  height: 600px;
   border-radius: 0 50% 50% 0;
   cursor: default;
 }
 
 .Header .heading {
-  width: 45%;
+  width: 55%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -72,8 +71,8 @@
   transition: 0.3s;
 }
 
-.Header .heading .block_btn .trailer_btn:hover {
-  transform: scale(1.05);
+.Header .heading .block_btn .trailer_btn:active {
+  transform: scale(0.95);
 }
 
 @keyframes btn {

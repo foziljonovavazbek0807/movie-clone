@@ -26,19 +26,19 @@ function Provide() {
           </div>
           <div className="anent">
             <span>
-              <b>Homeland :</b>
+              <h5>Homeland :</h5>
               <p>USA</p>
             </span>
             <span>
-              <b>Language :</b>
+              <h5>Language :</h5>
               <p>English</p>
             </span>
             <span>
-              <b>Time :</b>
+              <h5>Time :</h5>
               <p>3h 1m</p>
             </span>
             <span>
-              <b>Genre :</b>
+              <h5>Genre :</h5>
               <p>Science Fiction, Adventure</p>
             </span>
           </div>

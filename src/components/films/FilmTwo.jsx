@@ -22,7 +22,7 @@ function FilmTwo() {
           </span>
           <span>
             <h5>Time :</h5>
-            <p>125 min / 2:05</p>
+            <p>3h 1m</p>
           </span>
           <span>
             <h5>Genre :</h5>

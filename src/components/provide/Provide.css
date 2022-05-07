@@ -68,7 +68,7 @@
   margin-top: 10px;
 }
 
-.Provide .provide_about .about_texts .anent span b {
+.Provide .provide_about .about_texts .anent span h5 {
   color: silver;
   font-size: 20px;
   font-weight: bold;
@@ -128,7 +128,6 @@
   padding: 8px 15px;
   cursor: pointer;
   transition: 0.3s;
-  transform: scale(0.98);
 }
 
 .Provide .provide_about .about_texts .btn_bloc .trailer_btn {
@@ -143,7 +142,7 @@
 
 .Provide .provide_about .about_texts .btn_bloc .trailer_btn:hover,
 .download_btn:hover {
-  transform: scale(1);
+  transform: translateY(-2px);
 }
 
 .Provide .provide_about .about_texts .btn_bloc .trailer_btn:active,

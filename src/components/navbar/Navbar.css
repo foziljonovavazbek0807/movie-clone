@@ -81,3 +81,11 @@
 .Navbar .menu li a:hover {
   color: #f00;
 }
+
+/* === Media === */
+
+@media screen and (max-width: 1200px) {
+  .Navbar {
+    padding: 10px 50px;
+  }
+}

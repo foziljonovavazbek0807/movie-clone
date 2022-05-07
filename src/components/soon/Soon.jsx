@@ -10,7 +10,7 @@ function Soon() {
         <small className="ti">2022</small>
         <b className="title">Avengers</b>
         <a href="#!" className="trailer_btn">
-          Watch Trailer
+          Trailer
         </a>
       </div>
       <div className="ad_one">
@@ -18,7 +18,7 @@ function Soon() {
         <small className="ti">2022</small>
         <b className="title">Avengers</b>
         <a href="#!" className="trailer_btn">
-          Watch Trailer
+          Trailer
         </a>
       </div>
       <div className="ad_one">
@@ -26,7 +26,7 @@ function Soon() {
         <small className="ti">2022</small>
         <b className="title">Avengers</b>
         <a href="#!" className="trailer_btn">
-          Watch Trailer
+          Trailer
         </a>
       </div>
     </div>
